@@ -1,0 +1,75 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* END IMPORT */
+
+/* GENERIC CLASS */
+.radius{
+    border-radius: 0.5em;
+}
+.border-none{
+    border: 0px solid transparent;
+}
+/* END GENERIC CLASS */
+
+/* HEIGHT */
+.height{
+    height : 100vh;
+}
+.l-height{
+    line-height: 0.2em;
+}
+/* END HEIGHT */
+
+/* MARGIN & PADDING */
+.margin-title{
+    margin-bottom: 5%;
+}
+/* END MARGIN & PADDING */
+
+/* BACKGROUND COLOR */
+.bg-blue{
+    background-color: #265268;
+}
+.bg-blue-light{
+    background-color: #4C7186;
+}
+.bg-dark-blue{
+    background-color: #15394C;
+}
+/* END BACKGROUND COLOR */
+
+/* FONT STYLE */
+.title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    color: white;
+}
+.button{
+    font-family: 'Dancing Script', cursive;
+    color: #4C7186;
+}
+/* END FONT STYLE */
+
+/* BORDER & RADIUS */
+.card-border{
+    border: 4px solid #608194;
+}
+/* END BORDER & RADIUS */
+
+/* HOVER */
+.button:hover{
+    background-color: #4C7186 !important;
+    color: white;
+}
+/* END HOVER */
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 921px){
+    .l-height{
+        line-height: 1em;
+    }
+}
+/* END MEDIA QUERIES */
